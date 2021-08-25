@@ -25,6 +25,8 @@
   https://img.shields.io/badge/MIT-hello%20world-blue
   ## Features
  takes info typed in to the node terminal and converts it into strings to be added to a README
+
+ ![gifofsucces](Untitled_ Aug 25, 2021 9_13 AM.gif)/![](Untitled_ Aug 25, 2021 9_13 AM.gif)
   ## How to Contribute
   they run it in node
 
