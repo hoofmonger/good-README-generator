@@ -1,6 +1,6 @@
-# README GENERATOR
+# Good README Generator
   ## Description
- create useable README for any future project
+ create a node.js program that generates a useable README for any future project
   ## Table of Contents
   
   - [Installation](#installation)
@@ -8,25 +8,25 @@
   - [Credits](#credits)
   - [License](#licenseTitle)
   ## Installation
-  takes info typed in to the node terminal and converts it into strings to be added to a README
+  uses inquirer to create a README from a template.
   ## Usage
-  download from github and run in node
+  Download off of github, make sure you have inquirer and fileService, and that should do it.
       ```md
       ![alt text](assets/images/screenshot.png)
       ```
   ## Credits
   James Hoofard
   ## License
-  please google the license, i'm not typing out the license text in its entirety some of these are massive
-  https://img.shields.io/badge/MIT-hello%20world-blue
+  The link below takes you to the license page for the MIT license.
+  (https://opensource.org/licenses/MIT)
   
   ## Badges
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-  https://img.shields.io/badge/MIT-hello%20world-blue
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Features
- takes info typed in to the node terminal and converts it into strings to be added to a README
+ uses inquirer to create a README from a template.
   ## How to Contribute
-  they run it in node
+  I have no real idea to be honest, i haven't gotten that far in my schoolwork. 
 
 
 

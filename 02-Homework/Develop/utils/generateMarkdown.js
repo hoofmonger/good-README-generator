@@ -2,13 +2,15 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(licenseTitle) {
 if (licenseTitle === "MIT"){
-  return "https://img.shields.io/badge/MIT-hello%20world-blue"
+  return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+
+
 }
 else if (licenseTitle === "Mozilla Public License 2.0"){
-  return "https://img.shields.io/badge/Mozilla%20-Public%20License-blue"
+  return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]"
 }
 else if (licenseTitle === "The Unilicense"){
-  return "https://img.shields.io/badge/The%20-Unilicense-blue"
+  return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"
 }
 else {
   return ""
@@ -20,13 +22,13 @@ else {
 // If there is no licenseTitle, return an empty string
 function renderLicenseLink(licenseTitle) {
   if (licenseTitle === "MIT"){
-    return "https://img.shields.io/badge/MIT-hello%20world-blue"
+    return "(https://opensource.org/licenses/MIT)"
   }
   else if (licenseTitle === "Mozilla Public License 2.0"){
-    return "https://img.shields.io/badge/Mozilla%20-Public%20License-blue"
+    return "(https://opensource.org/licenses/MPL-2.0)"
   }
   else if (licenseTitle === "The Unilicense"){
-    return "https://img.shields.io/badge/The%20-Unilicense-blue"
+    return "(http://unlicense.org/)"
   }
   else {
     return ""
@@ -37,13 +39,13 @@ function renderLicenseLink(licenseTitle) {
 // If there is no licenseTitle, return an empty string
 function renderLicenseSection(licenseTitle) {
   if (licenseTitle === "MIT"){
-    return "please google the license, i'm not typing out the license text in its entirety some of these are massive"
+    return "The link below takes you to the license page for the MIT license."
   }
   else if (licenseTitle === "Mozilla Public License 2.0"){
-    return "please google the license, i'm not typing out the license text in its entirety some of these are massive"
+    return "the link below takes you to the license page for the MPL license."
   }
   else if (licenseTitle === "The Unilicense"){
-    return "please google the license, i'm not typing out the license text in its entirety some of these are massive"}
+    return "the link below takes you to the license page for the Unilicence."}
   else {
     return ""
   }

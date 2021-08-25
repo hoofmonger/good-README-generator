@@ -36,9 +36,6 @@ choices: ["MIT",
 "Mozilla Public License 2.0",
 "The Unilicense"],
 name: 'licenseTitle'},
-{message: "What do you want to call this README?",
-type: 'input',
-name: 'filename'}
 ];
 
 // TODO: Create a function to write README file
