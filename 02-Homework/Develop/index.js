@@ -33,15 +33,6 @@ name: 'testDescription'},
 {message: "Select a License",
 type: 'list',
 choices: ["MIT", 
-"Apache License 2.0", 
-"GNU General Public License 3.0",
-"BSD 2-Clause Simplified License",
-"BSD 3-Clause New or Revised License",
-"Boost Software License 1.0",
-"Creative Commons Zero v1.0 Universal",
-"Eclipse Public License 2.0",
-"GNU Affero General Public License",
-"GNU Lesser General Public License v2.1",
 "Mozilla Public License 2.0",
 "The Unilicense"],
 name: 'licenseTitle'},
@@ -52,13 +43,13 @@ name: 'filename'}
 
 // TODO: Create a function to write README file
 function writeToFile(filename, data) {
-    .then((data) => {fs.appendFile(filename.data)
+   
         
     
-        fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
+        fs.writeFile(filename, data, (err) =>
           err ? console.log(err) : console.log('Success!')
         );
-      })};
+      };
  
 
 
